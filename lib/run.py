@@ -6,7 +6,12 @@ def fancy_pad(text):
     return f'**{text}**'
 
 
+def lowly_pad(text):
+    return f'__{text}__'
+
+
 if __name__ == "__main__":
     name = upper_name('dror')
 
-    print(fancy_pad(name))
+    pad = fancy_pad(name)
+    print(lowly_pad(pad))
