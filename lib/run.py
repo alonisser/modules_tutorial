@@ -1,14 +1,4 @@
-def upper_name(a_name):
-    return a_name.upper()
-
-
-def fancy_pad(text):
-    return f'**{text}**'
-
-
-def lowly_pad(text):
-    return f'__{text}__'
-
+from helpers.text import upper_name, fancy_pad, lowly_pad
 
 if __name__ == "__main__":
     name = upper_name('dror')
