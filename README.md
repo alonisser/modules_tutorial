@@ -10,6 +10,11 @@ python -m venv venv
 ```
 
 ## Steps:
+```bash
+git checkout step_name
+```
+
+Available steps:
 
 * v1
 * v3
